@@ -1,0 +1,76 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #fafafa;
+    line-height: 1.6;
+}
+
+/* Header and Footer */
+header, footer {
+    background-color: #4fad84;
+    color: #fff;
+    padding: 1.5em;
+    text-align: center;
+}
+
+header h1, footer p {
+    margin: 0.5em 0;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Section Styles */
+section {
+    padding: 2em;
+    margin: 1.5em 0;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #4fad84;
+}
+
+/* Specific Section Styles */
+#inicio {
+    background-color: #fef9f0;
+}
+
+#recetas {
+    background-color: #ffeddf;
+}
+
+#hacks {
+    background-color: #fff7e6;
+}
+
+
+
+#contacto {
+    background-color: #fff5e0;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center; 
+    gap: 10px; 
+}
+.image-container img {
+    width: 200px; 
+    height: auto; 
+    border-radius: 8px; 
+}
