@@ -12,6 +12,7 @@ header, footer {
     color: #fff;
     padding: 1.5em;
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 header h1, footer p {
@@ -70,7 +71,17 @@ section h2 {
     gap: 10px; 
 }
 .image-container img {
-    width: 200px; 
+    width: 240px; 
+    height: auto; 
+    border-radius: 8px; 
+}
+.image-containero {
+    display: flex;
+    justify-content: center; 
+    gap: 10px; 
+}
+.image-containero img {
+    width: 350px; 
     height: auto; 
     border-radius: 8px; 
 }
